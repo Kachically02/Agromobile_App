@@ -1,0 +1,16 @@
+.nav-container{
+    display: flex;
+    justify-content: space-around;
+    background-color: rgb(236, 233, 233);
+    align-items: center;
+}
+.vertical-line{
+    /* width: 4rem;
+    height: 10vh; */
+    border-left: 2px solid white;
+}
+.nav-text{
+    display: flex;
+    flex-direction: column;
+    line-height: 2px;
+}
