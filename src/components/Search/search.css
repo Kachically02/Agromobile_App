@@ -24,7 +24,7 @@
         font-size: 14px;
         border-radius: 0;
       }
-    button {
+      .search-button{
         border:none;
         height: 100%;
         width: 56px;

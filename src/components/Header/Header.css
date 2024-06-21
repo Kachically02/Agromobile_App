@@ -1,0 +1,14 @@
+.header-section{
+    background-image: url("../../images/Headerimg.svg");
+    width: 100%;
+    height: 70vh;
+}
+.header-section h3{
+    margin-top: 7rem;
+    color: white;
+    font-size: 2rem;
+    font-weight: 700;
+}
+.header-section p{
+    color: white;
+}
