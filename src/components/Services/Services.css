@@ -1,0 +1,59 @@
+
+
+.section-one{
+    margin-top: -4rem;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+.section-one img{
+    width: 30rem;
+}
+.section-one h4{
+    color: #225B3C;
+    text-align: center;
+    margin-bottom: 2rem;
+}
+.section-two h3{
+    text-align: center;
+    font-size: 2.5rem;
+    font-weight: 700;
+    margin-bottom: 2rem;
+}
+.section-two .card{
+    background-color: rgb(250, 250, 250);
+}
+.section-two .card .text{
+    text-align: center;
+    margin-top: 1rem;
+}
+.section-two .card .text p{
+    word-spacing: 3px;
+}
+.section-three{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+.section-three img{
+    width: 60%;
+}
+.section-four{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 1rem;
+    margin-top: 2rem;
+}
+.section-four img{
+    width: 60%;
+}
+.section-four h5{
+    text-align: center;
+}
+.section-four a{
+    color: red;
+    font-size: 1.5rem;
+    font-weight: bold;
+    text-decoration: none;
+}
