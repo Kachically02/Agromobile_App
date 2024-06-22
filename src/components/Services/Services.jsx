@@ -5,6 +5,10 @@ import orderimg2 from "../../images/orderimg2.svg";
 import orderimg3 from "../../images/orderimg3.svg";
 import Fruits from "../../images/fruits.svg";
 import Delivery from "../../images/deliveryimg.svg";
+import Locals1 from "../../images/locals1.svg";
+import Locals2 from "../../images/locals2.svg";
+import Locals3 from "../../images/locals3.svg";
+import Tips from "../../images/Tipsimg.svg";
 import "./Services.css";
 
 function Services() {
@@ -77,6 +81,46 @@ function Services() {
             including some good discounts <br /> on every fresh produce they buy
           </h5>
           <a href="#">Sign Up</a>
+        </div>
+
+        <div className="section-five">
+          <h3>Where The Locals Dine Best</h3>
+          <div className="container">
+            <div className="row">
+              <div className="col-12 col-md-4">
+                <div className="card">
+                  <img src={Locals1} alt="" />
+                </div>
+              </div>
+              <div className="col-12 col-md-4">
+                <div className="card">
+                  <img src={Locals2} alt="" />
+                </div>
+              </div>
+              <div className="col-12 col-md-4">
+                <div className="card">
+                  <img src={Locals3} alt="" />
+                </div>
+              </div>
+              <h5>
+                We take pride in partnering with numerous local farms and
+                artisans who supply us with an amazing <br /> variety of food
+                throughout the year
+              </h5>
+            </div>
+          </div>
+        </div>
+
+        <div className="section-six">
+          <h3>Nutrition Tips</h3>
+          <img src={Tips} alt="" />
+          <h5>
+            Our Nutrition Tips offer expert advice to help you make informed
+            food choices, enjoy balanced <br/> meals, and boost your well-being.
+            Discover delicious recipes and wellness tips for a healthier
+            lifestyle <br/> with every bite.
+          </h5>
+          <button>Back to Top</button>
         </div>
       </div>
     </div>
